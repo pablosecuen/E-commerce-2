@@ -1,0 +1,55 @@
+.navcontainer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 4rem;
+  background-color: transparent;
+  backdrop-filter: blur(100%);
+  z-index: 50;
+  align-items: center;
+  font-size: 14px;
+  padding: 0px 15px 0px 15px;
+  @media (width <= 768px) {
+    display: none;
+  }
+}
+
+.navul {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  padding: 0px 150px 0px 150px;
+  list-style: none;
+}
+
+.navul a {
+  &:hover {
+    transform: scale(1);
+  }
+}
+
+.serviciosli {
+  position: relative;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+}
+
+.enlacesli {
+  position: relative;
+  font-family: "bebasneue";
+  letter-spacing: 3px;
+  &:hover {
+    cursor: pointer;
+  }
+}

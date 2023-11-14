@@ -1,0 +1,70 @@
+.container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: auto;
+  height: 55px;
+  border-radius: 50px;
+  border: 2px white solid;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px 15px 5px 15px;
+  @media (width < 768px) {
+    bottom: 15px;
+    right: 10px;
+    height: 45px;
+  }
+}
+
+.whatsapp {
+  flex: 1;
+  font-size: 28px;
+  &:hover {
+    cursor: pointer;
+    transform: translateX(2px) translateY(2px);
+    transition: 0.2s ease;
+  }
+  @media (width < 768px) {
+    font-size: 20px;
+  }
+}
+
+.mail {
+  flex: 1;
+  font-size: 30px;
+  &:hover {
+    cursor: pointer;
+    transform: translateX(2px) translateY(2px);
+    transition: 0.2s ease;
+  }
+  @media (width < 768px) {
+    font-size: 20px;
+  }
+}
+
+.top {
+  flex: 1;
+  font-size: 30px;
+  &:hover {
+    cursor: pointer;
+    transform: translateX(2px) translateY(2px);
+    transition: 0.2s ease;
+  }
+  @media (width < 768px) {
+    font-size: 20px;
+  }
+}
+
+.icon1 {
+  size: 60px;
+  @media (width < 768px) {
+    display: none;
+  }
+}
+
+.icon {
+  @media (width > 768px) {
+    display: none;
+  }
+}
